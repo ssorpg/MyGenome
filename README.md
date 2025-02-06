@@ -16,4 +16,10 @@
 
 ```scp -r jba231@jba231.cs.uky.edu:Po2 C:/Users/ssorp/Downloads```
 
-5. 
+5. View the HTML files to determine what kind of trimming we need to do
+
+6. `cp` trimmomatic-0.38.jar from `~/sequences/` to `~/Po2/`
+
+```cp trimmomatic-0.38.jar ~/Po2/```
+
+8. Trim the adaptor sequences from 
