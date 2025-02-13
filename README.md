@@ -12,30 +12,26 @@
 
 4. `scp` the folder from Professor Farman's machine
 
-```scp -r ngs@10.163.183.71:Desktop/Po2 ./Po2```
+```scp -r ngs@10.163.183.71:Desktop/Po2 ./myGenome```
 
-5. Rename the folder to _myGenome_
-
-```mv Po2 myGenome```
-
-6. Rename the samples to the following formats _sampleName_1.fq.gz_ and _sampleName_2.fq.gz_
+5. Rename the samples to the following formats _sampleName_1.fq.gz_ and _sampleName_2.fq.gz_
 
 ```
 mv Po2_CKDL240039120-1A_22HTV5LT4_L2_1.fq.gz Bm88503_1.fq.gz
 mv Po2_CKDL240039120-1A_22HTV5LT4_L2_2.fq.gz Bm88503_2.fq.gz
 ```
 
-5. Create HTML files to analyze using `fastqc` for each of the sequence reads
+6. Create HTML files to analyze using `fastqc` for each of the sequence reads
 
 ```fastqc Bm88503_1.fq.gz Bm88503_2.fq.gz```
 
-6. `scp` the HTML files to local PC using
+7. `scp` the HTML files to local PC using
 
 ```scp -r jba231@jba231.cs.uky.edu:myGenome C:/Users/ssorp/Downloads```
 
-7. View the HTML files to determine what kind of trimming we need to do
+8. View the HTML files to determine what kind of trimming we need to do
 
-8. `cp` trimmomatic-0.38.jar from `~/sequences/` to `~/Po2/`
+9. `cp` trimmomatic-0.38.jar from `~/sequences/` to `~/Po2/`
 
 ```cp trimmomatic-0.38.jar ~/myGenome/```
 
