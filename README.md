@@ -1,25 +1,42 @@
 # Title
 
-1. `ssh` into Professor Farman's machine to determine where the `Po2` directory is located
+1. `ssh` into your CS VM
+
+```ssh jba231@jba231.cs.uky.edu```
+
+2.   `ssh` into Professor Farman's machine to determine where the `Po2` directory is located
 
 ```ssh ngs@10.163.183.71```
 
-2. `scp` the folder from Professor Farman's machine
+3. `logout` of the machine
+
+4. `scp` the folder from Professor Farman's machine
 
 ```scp -r ngs@10.163.183.71:Desktop/Po2 ./Po2```
 
-3. Create HTML files to analyze using `fastqc` for each of the sequence reads
+5. Rename the folder to _myGenome_
 
-```fastqc Po2_CKDL240039120-1A_22HTV5LT4_L2_1.fq.gz Po2_CKDL240039120-1A_22HTV5LT4_L2_2.fq.gz```
+```mv Po2 myGenome```
 
-4. `scp` the HTML files to local PC using
+6. Rename the samples to the following formats _sampleName_1.fq.gz_ and _sampleName_2.fq.gz_
 
-```scp -r jba231@jba231.cs.uky.edu:Po2 C:/Users/ssorp/Downloads```
+```
+mv Po2_CKDL240039120-1A_22HTV5LT4_L2_1.fq.gz Bm88503_1.fq.gz
+mv Po2_CKDL240039120-1A_22HTV5LT4_L2_2.fq.gz Bm88503_2.fq.gz
+```
 
-5. View the HTML files to determine what kind of trimming we need to do
+5. Create HTML files to analyze using `fastqc` for each of the sequence reads
 
-6. `cp` trimmomatic-0.38.jar from `~/sequences/` to `~/Po2/`
+```fastqc Bm88503_1.fq.gz Bm88503_2.fq.gz```
 
-```cp trimmomatic-0.38.jar ~/Po2/```
+6. `scp` the HTML files to local PC using
 
-8. Trim the adaptor sequences from 
+```scp -r jba231@jba231.cs.uky.edu:myGenome C:/Users/ssorp/Downloads```
+
+7. View the HTML files to determine what kind of trimming we need to do
+
+8. `cp` trimmomatic-0.38.jar from `~/sequences/` to `~/Po2/`
+
+```cp trimmomatic-0.38.jar ~/myGenome/```
+
+9. Trim the adaptor sequences from 
