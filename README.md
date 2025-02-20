@@ -51,7 +51,7 @@ mv Po2_CKDL240039120-1A_22HTV5LT4_L2_2.fq.gz Bm88503_2.fq.gz
 
 ```mkdir /project/farman_s25abt480/jba231```
 
-15. `scp` the files from CS VM into `/project/farman_s25abt480/jba231` on the MCC VM
+15. `scp` the files from the CS VM into `/project/farman_s25abt480/jba231` on the MCC VM
 
 ```scp jba231@jba231.cs.uky.edu:~/myGenome/*_p.fq /project/farman_s25abt480/jba231```
 
