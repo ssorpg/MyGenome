@@ -59,4 +59,8 @@ mv Po2_CKDL240039120-1A_22HTV5LT4_L2_2.fq.gz Bm88503_2.fq.gz
 
 17. Initiate an entry in the class's online BioProject
 
-18. Submit raw sequence datasets to NCBI Sequence Read Archive (SRA)
+18. Submit raw sequence datasets to NCBI Sequence Read Archive (SRA) using `aspera`
+
+```.aspera/connect/bin/ascp -i ~/sequences/aspera.openssh -QT -l100m -k1 -d ~/myGenome/ subasp@upload.ncbi.nlm.nih.gov:uploads/jba231_uky.edu_FhPrmBCS```
+
+19. 
