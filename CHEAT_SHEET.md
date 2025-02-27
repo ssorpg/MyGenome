@@ -2,7 +2,7 @@
 
 Trim a file
 
-```java -jar path/to/trimmomatic-0.38.jar PE -threads 2 -phred33 -trimlog <LOGFILE>.txt <FORWARD>.fq <REVERSE>.fq <NEW_FORWARD_P>.fq <NEW_FORWARD_UP>.fq <NEW_REVERSE_P>.fq <NEW_REVERSE_UP>.fq ILLUMINACLIP:<ADAPTORS>.fasta:2:30:10 SLIDNGWINDOW:20:20 MINLEN120```
+```java -jar path/to/trimmomatic-0.38.jar PE -threads 2 -phred33 -trimlog <LOGFILE>.txt <FORWARD>.fq <REVERSE>.fq <NEW_FORWARD_P>.fq <NEW_FORWARD_UP>.fq <NEW_REVERSE_P>.fq <NEW_REVERSE_UP>.fq ILLUMINACLIP:<ADAPTORS>.fasta:2:30:10 SLIDINGWINDOW:20:20 MINLEN:120```
 
 Read the number of sequences (reads) from a file
 
