@@ -23,3 +23,7 @@ Create an HTML file to visualize the fq analysis
 Scp a file
 
 ```scp <HOSTNAME_FROM>:<PATH_TO_FILE> <HOSTNAME_TO>:<PATH_TO_NEWFILE>```
+
+Create a new screen with a name
+
+```screen -S <NEW_NAME>```
