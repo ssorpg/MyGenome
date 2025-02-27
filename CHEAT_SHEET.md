@@ -19,3 +19,7 @@ Upload file toncbi using Aspera
 Create an HTML file to visualize the fq analysis
 
 ```fastqc <FILE1>.fq <FILE2>.fq etc...```
+
+Scp a file
+
+```scp <HOSTNAME_FROM>:<PATH_TO_FILE> <HOSTNAME_TO>:<PATH_TO_NEWFILE>```
