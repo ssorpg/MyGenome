@@ -9,3 +9,6 @@ Trimmomatic command
 
 ```screen java -jar trimmomatic-0.38.jar PE -threads 2 -phred33 -trimlog BcereusLogFile.txt Bcereus_S1_L001_R1_001.fastq.gz Bcereus_S1_L001_R2_001.fastq.gz Bcereus_S1_L001_R1_001_p.fq Bcereus_S1_L001_R1_001_up.fq Bcereus_S1_L001_R2_001_p.fq Bcereus_S1_L001_R2_001_up.fq ILLUMINACLIP:../adaptors.fasta:2:30:10 SLIDINGWINDOW:20:20 MINLEN:120```
 
+Suggested k-mer length for B. cereus: 95
+Suggested k-mer length for fungal: 137
+Suggested k-mer length for human: 99
