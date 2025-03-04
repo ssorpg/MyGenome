@@ -35,7 +35,7 @@ Assemble via `velvetg`
 
 - Genome size (total): 5,534,174
 - Number of scaffolds (nodes): 6,738
-- Longest scaffoled (max): 36,962
+- Longest scaffold (max): 36,962
 - N50 value: 5,291
 
 Run velvet using a range of k-mer values
