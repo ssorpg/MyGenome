@@ -42,7 +42,7 @@ Run velvet using a range of k-mer values
 
 ```velvetoptimiser -s 121 -e 201 -x 10 -d Bcereus_velvet_optimal -f '-shortPaired -fastq.gz -separate Bcereus_S1_L001_R1_001.fastq.gz Bcereus_S1_L001_R2_001.fastq.gz' -t 1```
 
-- Genome size (total bases in contigs): 
-- Number of scaffolds (contigs)*: 
-- Longest scaffold: 
-- N50: 
+- Genome size (total bases in contigs): 5,402,802
+- Number of scaffolds (contigs)*: 85
+- Longest scaffold: 488,605
+- N50: 161,935
