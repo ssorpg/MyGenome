@@ -27,3 +27,23 @@ Scp a file
 Create a new screen with a name
 
 ```screen -S <NEW_NAME>```
+
+List all active screens
+
+```screen -ls```
+
+Attach to screen with name
+
+```screen -r <NAME>```
+
+Run velvet using a range of k-mer values
+
+```velvetoptimiser -s <MIN_K-MER_VALUE> -e <MAX_K-MER_VALUE> -x <K-MER_INCREMENT> -d <NEW_DIRECTORY> -f '-shortPaired -fastq.gz -separate <FORWARD>.fq <REVERSE>.fq' -t 1```
+
+Build `velveth` roadmaps
+
+```velveth <NEW_DIRECTORY> <K-MER_VALUE> -shortPaired -fastq -separate <FORWARD>.fq <REVERSE>.fq```
+
+Assemble via `velvetg`
+
+```velvetg <VELVETH_DIRECTORY>```
