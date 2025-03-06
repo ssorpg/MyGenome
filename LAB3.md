@@ -13,6 +13,8 @@ Trimmomatic command
 - Suggested k-mer length for fungal: 137
 - Suggested k-mer length for human: 99
 
+# Steps
+
 Create a Velvet screen
 
 ```screen -S velvet```
