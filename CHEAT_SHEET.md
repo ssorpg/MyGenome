@@ -12,7 +12,7 @@ Read the number of bases from a file
 
 ```awk 'NR % 4 == 2' <FILE>.fq | tr -d '\r\n' | wc -m```
 
-Upload file toncbi using Aspera
+Upload file to ncbi using Aspera
 
 ```.aspera/connect/bin/ascp -i ~/sequences/aspera.openssh -QT -l100m -k1 -d ~/myGenome/ subasp@upload.ncbi.nlm.nih.gov:uploads/jba231_uky.edu_<KEY>```
 
