@@ -6,29 +6,7 @@
 
 3. [Trim the sequence reads](TrimReads.md), if necessary
 
-4. Log in to the NCBI NIH portal
-
-5. Initiate an entry in the class's online BioProject
-
-6. Download the Aspera Connect software using `wget`
-
-```wget https://d3gcli72yxqn2z.cloudfront.net/downloads/connect/latest/bin/ibm-aspera-connect_4.2.13.820_linux_x86_64.tar.gz```
-
-7. Uncompress the archive
-
-```tar zxvf ibm-aspera-connect_4.2.8.540_linux_x86_64.tar.gz```
-
-8. Install the software
-
-```bash ibm-aspera-connect_4.2.8.540_linux_x86_64.sh```
-
-9. Download the key file to local PC, upload to VM using `scp`
-
-```scp aspera.openssh jba231@jba231.cs.uky.edu:~/sequences/```
-
-10. Submit raw sequence datasets to NCBI Sequence Read Archive (SRA) using `aspera`
-
-```.aspera/connect/bin/ascp -i ~/sequences/aspera.openssh -QT -l100m -k1 -d ~/myGenome/ subasp@upload.ncbi.nlm.nih.gov:uploads/jba231_uky.edu_FhPrmBCS```
+4. [Upload the Sequence Reads to the NCBI NIH Portal](UploadToNCBI.md)
 
 11. `ssh` into the MCC VM
 
