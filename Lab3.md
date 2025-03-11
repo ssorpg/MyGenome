@@ -15,23 +15,23 @@ Trimmomatic command
 
 # Steps
 
-Create a Velvet screen
+1. Create a Velvet screen
 
 ```screen -S velvet```
 
-Attach to Velvet screen
+2. Attach to Velvet screen
 
 ```screen -r velvet```
 
-Detatch from Velvet screen
+3. Detatch from Velvet screen
 
 ```CTRL+A then CTRL+D```
 
-Build `velveth` roadmaps
+4. Build `velveth` roadmaps
 
 ```velveth Bcereus_velvet1 95 -shortPaired -fastq -separate Bcereus_S1_L001_R1_001_p.fq Bcereus_S1_L001_R2_001_p.fq```
 
-Assemble via `velvetg`
+5. Assemble via `velvetg`
 
 ```velvetg Bcereus_velvet1/```
 
@@ -40,7 +40,7 @@ Assemble via `velvetg`
 - Longest scaffold (max): 36,962
 - N50 value: 5,291
 
-Run velvet using a range of k-mer values
+6. Run velvet using a range of k-mer values
 
 ```velvetoptimiser -s 121 -e 201 -x 10 -d Bcereus_velvet_optimal -f '-shortPaired -fastq.gz -separate Bcereus_S1_L001_R1_001.fastq.gz Bcereus_S1_L001_R2_001.fastq.gz' -t 1```
 
