@@ -18,9 +18,9 @@
 
 ![Pre_SequenceQuality.png](/images/Pre_SequenceQuality.png)
 
-<h6>Post-trim Adaptor Contamination for Bm88503</h6>
+<h6>Pre-trim Adaptor Contamination for Bm88503</h6>
 
-![Post_SequenceQuality.png](/images/Post_SequenceQuality.png)
+![Pre_Contamination.png](/images/Pre_Contamination.png)
 
 6. Set up a screen job to trim adaptor and low-quality reads from `Bm88503_1.fq.gz` and `Bm88503_2.fq.gz` using `trimmomatic-0.38.jar`
 
@@ -38,7 +38,7 @@
 
 <h6>Post-trim Sequence Quality Plot for Bm88503</h6>
 
-![Pre_Contamination.png](/images/Pre_Contamination.png)
+![Post_SequenceQuality.png](/images/Post_SequenceQuality.png)
 
 <h6>Post-trim Adaptor Contamination for Bm88503</h6>
 
