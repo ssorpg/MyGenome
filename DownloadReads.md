@@ -1,5 +1,7 @@
 # Download Reads of Genome from Dr. Farman's Computer
 
+To download the raw sequence reads, we need to log in to our VM, copy the reads from Dr. Farman's computer, and rename the files for easier identification.
+
 1. ssh into the CS VM
 
 ```ssh jba231@jba231.cs.uky.edu```
