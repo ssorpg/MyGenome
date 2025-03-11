@@ -1,7 +1,5 @@
 # Download Reads of Genome from Dr. Farman's Computer
 
-
-
 1. ssh into the CS VM
 
 ```ssh jba231@jba231.cs.uky.edu```
