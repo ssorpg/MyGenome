@@ -15,9 +15,11 @@
 4. View the HTML files to determine what kind of trimming to do
 
 <h6>Pre-trim Sequence Quality Plot for Bm88503</h6>
+
 ![Pre_SequenceQuality.png](/images/Pre_SequenceQuality.png)
 
 <h6>Post-trim Adaptor Contamination for Bm88503</h6>
+
 ![Post_SequenceQuality.png](/images/Post_SequenceQuality.png)
 
 6. Set up a screen job to trim adaptor and low-quality reads from `Bm88503_1.fq.gz` and `Bm88503_2.fq.gz` using `trimmomatic-0.38.jar`
@@ -35,7 +37,9 @@
 7. View the HTML files to determine if there is any more trimming to do. If there is, go back to step 7 and modify the `trimmomatic` command
 
 <h6>Post-trim Sequence Quality Plot for Bm88503</h6>
+
 ![Pre_Contamination.png](/images/Pre_Contamination.png)
 
 <h6>Post-trim Adaptor Contamination for Bm88503</h6>
+
 ![Post_Contamination.png](/images/Post_Contamination.png)
