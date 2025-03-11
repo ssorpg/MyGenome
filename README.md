@@ -2,7 +2,9 @@
 
 1. Create a GitHub repository and add a `README.md` file to it
 
+2. [Download the sequence reads](DownloadReads.md)
 
+3. [Trim the sequence reads](TrimReads.md), if necessary
 
 13. Log in to the NCBI NIH portal
 
