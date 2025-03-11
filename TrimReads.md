@@ -1,5 +1,9 @@
 # Trimming Sequence Reads
 
+1. ssh into the CS VM
+
+```ssh jba231@jba231.cs.uky.edu```
+
 1. Create HTML files to analyze using `fastqc` for each of the sequence reads
 
 ```fastqc Bm88503_1.fq.gz Bm88503_2.fq.gz```
