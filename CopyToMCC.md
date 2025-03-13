@@ -27,7 +27,7 @@ mv Bm88503_2_p.fq Bm88503_2_paired.fq
 
 ```cp ../SLURM_SCRIPTS/velvetoptimiser_noclean.sh .```
 
-7. Use nano to add my email address to the mail-user line of the slurm script
+7. Use nano to add your email address to the mail-user line of the slurm script
 
 ```nano velvetoptimiser_noclean.sh```
 
