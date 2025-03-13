@@ -1,6 +1,6 @@
 # Copy Trimmed Sequence Reads to the MCC Supercomputer
 
-Assembling a real world genome takes a lot of computing power. By uploading our sequence reads to the MCC Supoercomputer and leveraging the power of parallel processing to optimize our assembly, we can quickly and efficient generate our full genome.
+Assembling a real world genome takes a lot of computing power. By uploading our sequence reads to the MCC Supercomputer and leveraging the power of parallel processing to optimize our assembly, we can quickly and efficient generate our full genome.
 
 1. `ssh` into the MCC VM
 
