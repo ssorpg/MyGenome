@@ -1,6 +1,6 @@
 # Trimming Sequence Reads
 
-Raw sequence reads may contain adaptor contamination, reads that are too short, low-quality reads, and other undesirable features. Sequences trimming removes these elements from the sequence reads for more accurate assembly.
+Raw sequence reads may contain adaptor contamination, reads that are too short, low-quality reads, and other undesirable features. Sequence trimming removes these elements from the sequence reads for more accurate assembly.
 
 1. ssh into the CS VM
 
