@@ -37,5 +37,5 @@ Then edit the `main-user` line to read as follows `#SBATCH --mail-user farman@uk
 
 ```
 sbatch velvetoptimiser_noclean.sh Bm88503 61 131 10
-sbatch velvetoptimiser_noclean.sh Bm88503 61 131 2
+sbatch velvetoptimiser_noclean.sh Bm88503 89 103 2
 ```
