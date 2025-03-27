@@ -6,7 +6,7 @@
 
 2. Access your working directory in Dr. Farman's ABT 480 group project
 
-```mkdir /project/farman_s25abt480/jba231```
+```cd /project/farman_s25abt480/jba231```
 
 3. Copy the SimpleFastaHeaders.pl perl script from /project/farman_s25abt480/SCRIPTs into your working directory
 
