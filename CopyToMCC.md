@@ -8,7 +8,7 @@ Assembling a real world genome takes a lot of computing power. By uploading our 
 
 2. If not already done, follow the directions to accept the terms and conditions to use the MCC VM
 
-3. `mkdir` in Dr. Farman's CS 480 group project directory
+3. `mkdir` in Dr. Farman's ABT 480 group project directory
 
 ```mkdir /project/farman_s25abt480/jba231```
 
