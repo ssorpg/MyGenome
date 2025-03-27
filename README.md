@@ -9,3 +9,5 @@
 4. [Upload the sequence reads to the NCBI NIH Portal](UploadToNCBI.md)
 
 5. [Copy the sequence reads to the MCC Supercomputer and begin genome assembly](CopyToMCC.md)
+
+6. [Finalize the genome and check its completeness](FinalizeGenome.md)
