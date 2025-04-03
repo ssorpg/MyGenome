@@ -33,7 +33,7 @@ mv Bm88503_2_p.fq Bm88503_2_paired.fq
 
 Then edit the `main-user` line to read as follows `#SBATCH --mail-user farman@uky.edu,jba231@uky.edu`
 
-8. Submit my assemblies to the SLURM queue, first with 10 step-size and then with 2
+8. Submit my assemblies to the SLURM queue, first with 10 step-size (40 minutes) and then with 2 (15 minutes)
 
 ```
 sbatch velvetoptimiser_noclean.sh Bm88503 61 131 10
