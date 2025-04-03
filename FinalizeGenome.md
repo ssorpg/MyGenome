@@ -40,6 +40,6 @@
 
 11. Edit the BuscoSingularity.sh script to include your email address
 
-12. Run BUSCO
+12. Run BUSCO (2 hours)
 
 ```sbatch BuscoSingularity.sh Bm88503_final.fasta```
