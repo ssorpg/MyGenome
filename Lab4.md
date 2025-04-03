@@ -10,4 +10,5 @@ Total sequence length: 1723
 Total sequence length of subject: 29791
 Forward or reverse: reverse
 
-Blast for MoTeR: 20 minutes
+Blast for MoTeR_retrotransposons.fasta: 20 minutes
+Blast for Bm88503_final.fasta: <1 minute
