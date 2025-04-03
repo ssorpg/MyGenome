@@ -1,4 +1,4 @@
-# Command Cheat Sheet
+# Linux Cheat Sheet
 
 Trim a file
 
@@ -51,3 +51,5 @@ Assemble via `velvetg`
 Run commands from a file
 
 ```source <FILE>```
+
+Commands that are put in `~/.bash_profile` are automatically run when connectiong via `ssh`
