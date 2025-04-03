@@ -47,3 +47,7 @@ Build `velveth` roadmaps
 Assemble via `velvetg`
 
 ```velvetg <VELVETH_DIRECTORY>```
+
+Run commands from a file
+
+```source <FILE>```
