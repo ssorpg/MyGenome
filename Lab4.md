@@ -13,4 +13,11 @@ Forward or reverse: reverse
 Blast for MoTeR_retrotransposons.fasta: 20 minutes  
 Blast for Bm88503_final.fasta: <1 minute  
 
-`sort -k9nr` reverses the results
+`sort -k9nr` reverses the results  
+
+Not sure
+
+74
+Yes
+41 matches
+9 of my contigs have matches to the sequence, so it appears that my genomic sequence is (relatively) complete
