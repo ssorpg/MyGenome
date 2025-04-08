@@ -17,7 +17,7 @@ Blast for Bm88503_final.fasta: <1 minute
 
 Not sure
 
-9  
+9 chromosomes  
 Yes  
-154 matches  
+154 telomeres  
 9 of my contigs have matches to the sequence, so it appears that my genomic sequence is (relatively) complete  
