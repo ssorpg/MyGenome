@@ -42,4 +42,4 @@
 
 11. BLAST your genome assembly against a repeat-masked version of the B71 reference genome
 
-```blastn -query B71v2sh_masked.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.Bm88503.BLAST```
+```singularity <???> blastn -query B71v2sh_masked.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.Bm88503.BLAST```
