@@ -20,7 +20,7 @@
 
 ```scp ngs@10.163.183.71:Desktop/MoMitochondrion.fasta```
 
-6. BLAST the MoMitochondrion.fasta sequence against your final genome assembly using output format 6 with specific column selections
+6. BLAST the `MoMitochondrion.fasta` sequence against your final genome assembly using output format 6 with specific column selections
 
 ```blastn -query MoMitochondrion.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid slen length qstart qend sstart send btop' > B71v2sh.Bm88503.BLAST```
 
