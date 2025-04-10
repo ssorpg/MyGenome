@@ -36,9 +36,9 @@
 
 ```cd /project/farman_s25abt480/jba231```
 
-10. Copy the `B71v2sh_masked.fasta` genome from the `/project/farman_s25abt480` directory into your personal project directory
+10. Copy the `B71v2sh_masked.fasta` genome from the `/project/farman_s25abt480/FASTA` directory into your personal project directory
 
-```cp ../B71v2sh_masked.fasta .```
+```cp ../FASTA/B71v2sh_masked.fasta .```
 
 11. BLAST your genome assembly against a repeat-masked version of the B71 reference genome
 
