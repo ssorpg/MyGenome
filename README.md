@@ -11,3 +11,5 @@
 5. [Copy the sequence reads to the MCC Supercomputer and begin genome assembly](CopyToMCC.md)
 
 6. [Finalize the genome and check its completeness](FinalizeGenome.md)
+
+7. [BLAST the genome](BLASTGenome.md)
