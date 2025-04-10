@@ -24,11 +24,18 @@
 
 ```awk '$3/$4 > 0.9 {print $2 ",mitochondrion"}' B71v2sh.Bm88503.BLAST > Bm88503_mitochondrion.csv```
 
-7. Copy the final `.csv` file into your MCC VM personal project directory
-
-```scp Bm88503_mitochondrion.csv jba231@mcc.uky.edu:project/```
-
-8. `ssh` into the MCC VM
+7. `ssh` into the MCC VM
 
 ```ssh jba231@mcc.uky.edu```
 
+8. `cd` into your personal project directory
+
+```cd /project/farman_s25abt480/jba231```
+
+9. Copy the `B71v2sh_masked.fasta` genome from the `/project/farman_s25abt480` directory into your personal project directory
+
+```cp ../B71v2sh_masked.fasta .```
+
+10. BLAST your genome assembly against a repeat-masked version of the B71 reference genome
+
+```blastn -query B71v2sh_masked.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.Bm88503.BLAST```
