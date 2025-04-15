@@ -61,4 +61,4 @@ cp B71v2sh.Bm88503.BLAST MyGenome_BLAST/
 
 ```awk '{len = ($6 > $5) ? $6 - $5 + 1 : $5 - $6 + 1; sum += len} END {print sum}' B71v2sh.Bm88503.BLAST```
 
-Outputs 36,479,128, or ~36mb
+Outputs 40,118, or ~40kb
