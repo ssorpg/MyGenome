@@ -53,12 +53,18 @@ mkdir MyGenome_BLAST
 cp B71v2sh.Bm88503.BLAST MyGenome_BLAST/
 ```
 
-12. Cope the BLAST results into the `CLASS_BLASTS` folder
+12. Copy the BLAST results into the `CLASS_BLASTS` folder
 
 ```cp B71v2sh.Bm88503.BLAST ../CLASS_BLASTs/```
 
-13. Determine the total length of the contigs that match the mitochondrial sequences.
+13. BLAST your genome assembly against `MoMitochondrion.fasta`
 
-```awk '{len = ($6 > $5) ? $6 - $5 + 1 : $5 - $6 + 1; sum += len} END {print sum}' B71v2sh.Bm88503.BLAST```
+```
+singularity run --app blast2120 /share/singularity/images/ccs/conda/amd-conda1-centos8.sinf blastn -query MoMitochondrion.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out MoMitochondrion.Bm88503.BLAST
+```
+
+14. Determine the total length of the contigs that match the mitochondrial sequences.
+
+```awk '{len = ($6 > $5) ? $6 - $5 + 1 : $5 - $6 + 1; sum += len} END {print sum}' MoMitochondrion.Bm88503.BLAST```
 
 Outputs 40,118, or ~40kb
