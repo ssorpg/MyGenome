@@ -4,17 +4,23 @@ Assembling a real world genome takes a lot of computing power. By uploading our 
 
 1. `ssh` into the MCC VM
 
-```ssh jba231@mcc.uky.edu```
+```
+ssh jba231@mcc.uky.edu
+```
 
 2. If not already done, follow the directions to accept the terms and conditions to use the MCC VM
 
 3. `mkdir` in Dr. Farman's ABT 480 group project directory
 
-```mkdir /project/farman_s25abt480/jba231```
+```
+mkdir /project/farman_s25abt480/jba231
+```
 
 4. `scp` the files from the CS VM into `/project/farman_s25abt480/jba231` on the MCC VM
 
-```scp jba231@jba231.cs.uky.edu:~/myGenome/*_p.fq /project/farman_s25abt480/jba231```
+```
+scp jba231@jba231.cs.uky.edu:~/myGenome/*_p.fq /project/farman_s25abt480/jba231
+```
 
 5. Rename the `_p` files to `_paired`
 
@@ -25,11 +31,15 @@ mv Bm88503_2_p.fq Bm88503_2_paired.fq
 
 6. Copy the velvetoptimiser script to your personal project directory
 
-```cp ../SLURM_SCRIPTS/velvetoptimiser_noclean.sh .```
+```
+cp ../SLURM_SCRIPTS/velvetoptimiser_noclean.sh .
+```
 
 7. Use nano to add your email address to the mail-user line of the slurm script
 
-```nano velvetoptimiser_noclean.sh```
+```
+nano velvetoptimiser_noclean.sh
+```
 
 Then edit the `main-user` line to read as follows `#SBATCH --mail-user farman@uky.edu,jba231@uky.edu`
 
