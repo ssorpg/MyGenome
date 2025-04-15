@@ -13,3 +13,5 @@
 6. [Finalize the genome and check its completeness](FinalizeGenome.md)
 
 7. [BLAST the genome](BLASTGenome.md)
+
+8. [Perform Gene Predictions on MyGenome](GenePrediction.md)
