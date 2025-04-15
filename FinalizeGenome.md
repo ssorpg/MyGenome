@@ -1,5 +1,7 @@
 # Finalize the Genome and Check its Completeness
 
+Before we can begin BLASTing the genome to allow it to be checked against the genomes of other classmates, we need to polish the final version of our genome to standardize headers and remove short contigs before running BUSCO to get a quantitative assessment of our genome's completeness
+
 1. `ssh` into the MCC VM
 
 ```ssh jba231@mcc.uky.edu```
