@@ -4,11 +4,15 @@ To download the raw sequence reads, we need to log in to our VM, copy the reads 
 
 1. ssh into the CS VM
 
-```ssh jba231@jba231.cs.uky.edu```
+```
+ssh jba231@jba231.cs.uky.edu
+```
 
 2. scp the folder from Dr. Farman's machine
 
-```scp -r ngs@10.163.183.71:Desktop/Po2 ./myGenome```
+```
+scp -r ngs@10.163.183.71:Desktop/Po2 ./myGenome
+```
 
 3. Rename the samples to the following formats sampleName_1.fq.gz and sampleName_2.fq.gz
 
