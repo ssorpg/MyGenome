@@ -43,3 +43,20 @@
 11. BLAST your genome assembly against a repeat-masked version of the B71 reference genome
 
 ```singularity run --app blast2120 /share/singularity/images/ccs/conda/amd-conda1-centos8.sinf blastn -query B71v2sh_masked.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.Bm88503.BLAST```
+
+12. Create a new folder `MyGenome_BLAST` and copy the BLAST results into it
+
+```
+mkdir MyGenome_BLAST
+cp B71v2sh.Bm88503.BLAST MyGenome_BLAST/
+```
+
+12. Cope the BLAST results into the `CLASS_BLASTS` folder
+
+```cp B71v2sh.Bm88503.BLAST ../CLASS_BLASTs/```
+
+13. Determine the total length of the contigs that match the mitochondrial sequences.
+
+```awk '{len = ($6 > $5) ? $6 - $5 + 1 : $5 - $6 + 1; sum += len} END {print sum}' B71v2sh.Bm88503.BLAST```
+
+Outputs 36,479,128, or ~36mb
