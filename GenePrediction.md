@@ -1,6 +1,6 @@
 # Gene Prediction on MyGenome
 
-<description here>
+!description here!
 
 1. ssh into the CS VM
 
@@ -68,13 +68,13 @@ forge export.ann export.dna
 hmm-assembler.pl Moryzae . > Moryzae.hmm
 ```
 
-12. Run SNAP
+12. Run SNAP (5 minutes)
 
 ```
 snap-hmm Moryzae.hmm Bm88503_final.fasta > Bm88503-snap.zff
 ```
 
-13. It is also possible to generate a GFF file in the older GFF2 format
+13. It is also possible to generate a GFF file in the older GFF2 format (10 minutes)
 
 ```
 snap-hmm Moryzae.hmm Bm88503_final.fasta -gff > Bm88503-snap.gff2
@@ -86,7 +86,7 @@ snap-hmm Moryzae.hmm Bm88503_final.fasta -gff > Bm88503-snap.gff2
 cd ~/genes/augustus
 ```
 
-15. Run Augustus
+15. Run Augustus 
 
 ```
 augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true ../snap/Bm88503_final.fasta > Bm88503-augustus.gff3
