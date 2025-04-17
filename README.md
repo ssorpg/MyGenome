@@ -15,3 +15,5 @@
 7. [BLAST the genome](BLASTGenome.md)
 
 8. [Perform Gene Predictions on MyGenome](GenePrediction.md)
+
+9. [Prepare and Execute a Gene Prediction and Annotation Workflow](MAKER.md)
