@@ -1,4 +1,4 @@
-# Gene Prediction on MyGenome
+# Gene Prediction on MyGenome With SNAP
 
 1. `ssh` into the MCC VM
 
