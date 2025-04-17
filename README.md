@@ -14,6 +14,4 @@
 
 7. [BLAST the genome](BLASTGenome.md)
 
-8. [Perform Gene Predictions on MyGenome With SNAP](SNAPGenePrediction.md)
-
-9. [Perform Gene Predictions on MyGenome With Augustus](AugustusGenePrediction.md)
+8. [Perform Gene Predictions on MyGenome](GenePrediction.md)
