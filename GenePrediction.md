@@ -1,27 +1,27 @@
-# Gene Prediction on MyGenome With SNAP
+# Gene Prediction on MyGenome
 
-1. `ssh` into the MCC VM
-
-```
-ssh jba231@mcc.uky.edu
-```
-
-2. Access your working directory in Dr. Farman's ABT 480 group project
+1. ssh into the CS VM
 
 ```
-cd /project/farman_s25abt480/jba231
+ssh jba231@jba231.cs.uky.edu
 ```
 
-3. Create a new screen to run our gene predictions
+2. Create a new screen to run our gene predictions
 
 ```
 screen -S genes bash -l
 ```
 
-4. Change to the `snap` directory under `~/genes`
+3. Change to the `snap` directory under `~/genes`
 
 ```
 cd ~/genes/snap
+```
+
+4. Download your genome's final output from the MCC supercomputer
+
+```
+scp jba231@mcc.uky.edu:/project/farman_s25abt480/jba231/Bm88503_final.fasta .
 ```
 
 5. Download the B71ref2.fasta genome and B71Ref2_a0.3.gff3 annotation file from the Farman Mac Desktop to the current directory
@@ -76,4 +76,16 @@ snap-hmm Moryzae.hmm Bm88503_final.fasta > Bm88503-snap.zff
 
 ```
 snap-hmm Moryzae.hmm Bm88503_final.fasta -gff > Bm88503-snap.gff2
+```
+
+14. Change to the `augustus` directory under `~/genes`
+
+```
+cd ~/genes/augustus
+```
+
+15. Run Augustus
+
+```
+augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true ../snap/Bm88503_final.fasta > Bm88503-augustus.gff3
 ```
