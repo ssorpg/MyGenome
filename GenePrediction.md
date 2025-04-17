@@ -86,7 +86,7 @@ snap-hmm Moryzae.hmm Bm88503_final.fasta -gff > Bm88503-snap.gff2
 cd ~/genes/augustus
 ```
 
-15. Run Augustus 
+15. Run Augustus (>75 minutes)
 
 ```
 augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true ../snap/Bm88503_final.fasta > Bm88503-augustus.gff3
