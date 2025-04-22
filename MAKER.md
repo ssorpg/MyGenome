@@ -38,7 +38,7 @@ keep_preds=1
 protein=/home/jba231/genes/maker/genbank/ncbi-protein-Magnaporthe_organism.fasta
 ```
 
-6. Run MAKER (4 hours)
+6. Run MAKER (9 hours)
 
 ```
 maker 2>&1 | tee maker.log
