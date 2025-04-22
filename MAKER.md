@@ -55,3 +55,9 @@ cat Bm88503_final.maker.output/Bm88503_final_master_datastore_index.log
 ```
 gff3_merge -d Bm88503_final.maker.output/Bm88503_final_master_datastore_index.log -o Bm88503-annotations.gff
 ```
+
+9. Gather gene sequences using the fasta-merge program
+
+```
+fasta_merge -d Bm88503_final.maker.output/Bm88503_final_master_datastore_index.log -o Bm88503-genes.fasta
+```
