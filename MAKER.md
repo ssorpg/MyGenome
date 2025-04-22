@@ -47,7 +47,7 @@ maker 2>&1 | tee maker.log
 7. Confirm that MAKER ran successfully by checking the log file
 
 ```
-cat Bm88503_final.output/Bm88503_final_master_datastore_index.log
+cat Bm88503_final.maker.output/Bm88503_final_master_datastore_index.log
 ```
 
 8. Merge everything together into one GFF file
