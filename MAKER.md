@@ -61,3 +61,10 @@ gff3_merge -d Bm88503_final.maker.output/Bm88503_final_master_datastore_index.lo
 ```
 fasta_merge -d Bm88503_final.maker.output/Bm88503_final_master_datastore_index.log -o Bm88503-genes.fasta
 ```
+
+10. Copy the `maker.proteins.fasta` and `maker.transcripts.fasta` files to the `CLASS_PROTEINs` and `CLASS_TRANSCRIPTs` folders respecitvely on the mcc
+
+```
+scp Bm88503-genes.fasta.all.maker.proteins.fasta jba231@mcc.uky.edu:/project/farman_s25abt480/CLASS_PROTEINs
+scp Bm88503-genes.fasta.all.maker.transcripts.fasta jba231@mcc.uky.edu:/project/farman_s25abt480/CLASS_TRANSCRIPTs
+```
