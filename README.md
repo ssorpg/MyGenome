@@ -17,3 +17,5 @@
 8. [Perform Gene Predictions on MyGenome](GenePrediction.md)
 
 9. [Prepare and Execute a Gene Prediction and Annotation Workflow](MAKER.md)
+
+10. [Upload the assembled genome to the NCBI NIH Portal](UploadToNCBI_a.md)
