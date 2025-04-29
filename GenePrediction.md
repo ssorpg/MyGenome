@@ -91,9 +91,3 @@ cd ~/genes/augustus
 ```
 augustus --species=magnaporthe_grisea --gff3=on --singlestrand=true --progress=true ../snap/Bm88503_final.fasta > Bm88503-augustus.gff3
 ```
-
-16. Upload the `.gff` file to the CLASS_GFFs folder on the MCC
-
-```
-scp Bm88503-annotations.gff jba231@mcc.uky.edu:/project/farman_s25abt480/CLASS_GFFs
-```
