@@ -14,7 +14,7 @@ scp jba@mcc.uky.edu:/project/farman_s25abt480/jba231/Bm88503_final.fasta ./Bm885
 
 4. Complete the entry following [Dr. Farman's instructions](images/FarmanNCBI.png)
 
-5. If the submission is returned with NCBI having detected adaptor contamination, clean the reads and resubmit
+5. If the submission is returned with NCBI having detected adaptor contamination, clean the reads and resubmit  
     a. NCBI will return a version of the genome where it has removed any adaptor contamination it has found at the start and end of each contig  
     b. Only the contamination found in the middle of each genome will need to be removed  
-    c. It can be removed by splitting the contig at the location of the contamination and removing the offending reads  
+    c. It can be removed by splitting the contig at the location of the contamination and removing the offending reads
