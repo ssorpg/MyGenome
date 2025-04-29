@@ -1,6 +1,6 @@
 # Prepare and Execute a Gene Prediction and Annotation Workflow
 
-!description here!
+While we can use SNAP and AUGUSTUS manually, it would be much easier if we could automate a workflow for our gene predictions. MAKER allows us to do just that, and even provides us with a helpful config file we can edit to change the parameters of our gene prediction runs.
 
 1. ssh into the CS VM
 
