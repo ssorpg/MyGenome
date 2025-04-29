@@ -68,3 +68,6 @@ fasta_merge -d Bm88503_final.maker.output/Bm88503_final_master_datastore_index.l
 scp Bm88503-genes.fasta.all.maker.proteins.fasta jba231@mcc.uky.edu:/project/farman_s25abt480/CLASS_PROTEINs
 scp Bm88503-genes.fasta.all.maker.transcripts.fasta jba231@mcc.uky.edu:/project/farman_s25abt480/CLASS_TRANSCRIPTs
 ```
+
+11. Record the number of predicted proteins  
+    a. 12,750
