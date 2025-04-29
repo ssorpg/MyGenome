@@ -87,10 +87,9 @@ cp B71v2sh.Bm88503.BLAST ../CLASS_BLASTs/
 singularity run --app blast2120 /share/singularity/data/ccs/conda/amd-conda1-centos8.sinf blastn -query MoMitochondrion.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out MoMitochondrion.Bm88503.BLAST
 ```
 
-14. Determine the total length of the contigs that match the mitochondrial sequences.
+14. Record the total length of the contigs that match the mitochondrial sequences  
+    a. The following command outputs 40,118, or ~40kb
 
 ```
 awk '{len = ($6 > $5) ? $6 - $5 + 1 : $5 - $6 + 1; sum += len} END {print sum}' MoMitochondrion.Bm88503.BLAST
 ```
-
-Outputs 40,118, or ~40kb
