@@ -1,6 +1,6 @@
 # Gene Prediction on MyGenome
 
-!description here!
+Now that our genome has been assembled, we can use SNAP and AUGUSTUS to make predictions about the type and number of genes that are expressed in our genome.
 
 1. ssh into the CS VM
 
