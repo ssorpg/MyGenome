@@ -65,7 +65,7 @@ cp ../FASTA/B71v2sh_masked.fasta .
 11. BLAST your genome assembly against a repeat-masked version of the B71 reference genome
 
 ```
-singularity run --app blast2120 /share/singularity/images/ccs/conda/amd-conda1-centos8.sinf blastn -query B71v2sh_masked.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.Bm88503.BLAST
+singularity run --app blast2120 /share/singularity/data/ccs/conda/amd-conda1-centos8.sinf blastn -query B71v2sh_masked.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out B71v2sh.Bm88503.BLAST
 ```
 
 12. Create a new folder `MyGenome_BLAST` and copy the BLAST results into it
@@ -84,7 +84,7 @@ cp B71v2sh.Bm88503.BLAST ../CLASS_BLASTs/
 13. BLAST your genome assembly against `MoMitochondrion.fasta`
 
 ```
-singularity run --app blast2120 /share/singularity/images/ccs/conda/amd-conda1-centos8.sinf blastn -query MoMitochondrion.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out MoMitochondrion.Bm88503.BLAST
+singularity run --app blast2120 /share/singularity/data/ccs/conda/amd-conda1-centos8.sinf blastn -query MoMitochondrion.fasta -subject Bm88503_final.fasta -evalue 1e-50 -max_target_seqs 20000 -outfmt '6 qseqid sseqid qstart qend sstart send btop' -out MoMitochondrion.Bm88503.BLAST
 ```
 
 14. Determine the total length of the contigs that match the mitochondrial sequences.

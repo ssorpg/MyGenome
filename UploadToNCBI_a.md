@@ -12,7 +12,7 @@ scp jba@mcc.uky.edu:/project/farman_s25abt480/jba231/Bm88503_final.fasta ./Bm885
 
 3. Initiate an entry in the class's online BioProject
 
-4. Complete the entry following [Dr. Farman's instructions](images/FarmanNCBI.png)
+4. Complete the entry following [Dr. Farman's instructions](data/FarmanNCBI.png)
 
 5. If the submission is returned with NCBI having detected adaptor contamination, clean the reads and resubmit  
     a. NCBI will return a version of the genome where it has removed any adaptor contamination it found at the start and end of each contig  

@@ -24,11 +24,11 @@ scp -r jba231@jba231.cs.uky.edu:myGenome/*.html C:/Users/ssorp/Downloads
 
 <h3>Pre-trim Sequence Quality Plot for Bm88503</h3>
 
-![Pre_SequenceQuality.png](/images/Pre_SequenceQuality.png)
+![Pre_SequenceQuality.png](/data/Pre_SequenceQuality.png)
 
 <h3>Pre-trim Adaptor Contamination for Bm88503</h3>
 
-![Pre_Contamination.png](/images/Pre_Contamination.png)
+![Pre_Contamination.png](/data/Pre_Contamination.png)
 
 6. Set up a screen job to trim adaptor and low-quality reads from `Bm88503_1.fq.gz` and `Bm88503_2.fq.gz` using `trimmomatic-0.38.jar`
 
@@ -52,8 +52,8 @@ scp -r jba231@jba231.cs.uky.edu:myGenome/*.html C:/Users/ssorp/Downloads
 
 <h3>Post-trim Sequence Quality Plot for Bm88503</h3>
 
-![Post_SequenceQuality.png](/images/Post_SequenceQuality.png)
+![Post_SequenceQuality.png](/data/Post_SequenceQuality.png)
 
 <h3>Post-trim Adaptor Contamination for Bm88503</h3>
 
-![Post_Contamination.png](/images/Post_Contamination.png)
+![Post_Contamination.png](/data/Post_Contamination.png)
