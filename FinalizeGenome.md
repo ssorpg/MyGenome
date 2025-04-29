@@ -65,3 +65,8 @@ cp ../SLURM_SCRIPTS/BuscoSingularity.sh .
 ```
 sbatch BuscoSingularity.sh Bm88503_final.fasta
 ```
+
+13. Record the fold coverage, BUSCO score, and BUSCO score complete + fragmented  
+    a. Fold coverage: 54.66  
+    b. BUSCO score: 98.4%  
+    c. BUSCO score complete + fragmented: 98.6%
