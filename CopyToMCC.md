@@ -53,7 +53,6 @@ sbatch velvetoptimiser_noclean.sh Bm88503 89 103 2
 9. Once the assemblies have been completed, view the optimizer output files to find the genome size, number of contigs, and n50 for both step size 10 and step size 2 optimizations
 
 <ol>
-  <li>
     <ol>
       <li>
           Step size 10
@@ -72,5 +71,4 @@ sbatch velvetoptimiser_noclean.sh Bm88503 89 103 2
           </ol>
       </li>
     </ol>
-  </li>
 </ol> 
