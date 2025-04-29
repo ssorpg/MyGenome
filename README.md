@@ -19,3 +19,5 @@
 9. [Prepare and Execute a Gene Prediction and Annotation Workflow](MAKER.md)
 
 10. [Upload the assembled genome to the NCBI NIH Portal](UploadToNCBI_a.md)
+
+11. [Compare the different genomes](CompareGenomes.md)
