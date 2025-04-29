@@ -42,4 +42,5 @@ scp aspera.openssh jba231@jba231.cs.uky.edu:~/sequences/
 .aspera/connect/bin/ascp -i ~/sequences/aspera.openssh -QT -l100m -k1 -d ~/myGenome/ subasp@upload.ncbi.nlm.nih.gov:uploads/jba231_uky.edu_FhPrmBCS
 ```
 
-9. Record your SRA accession number (SRR32334450)
+9. Record your SRA accession number
+    a. SRR32334450
