@@ -19,7 +19,7 @@ head ../CLASS_BLASTs/B71v2sh.Bm88503.BLAST
 5. Copy the `CallVariants.sh` script from `farman_s25abt480/SLURM_SCRIPTS` into your personal directory
 
 ```
-scp ../SLURM_SCRIPTS/CallVariants.sh .
+cp ../SLURM_SCRIPTS/CallVariants.sh .
 ```
 
 7. Add your email address at the relevant spot
