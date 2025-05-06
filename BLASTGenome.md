@@ -29,7 +29,7 @@ ssh jba231@jba231.cs.uky.edu
 5. Copy the `MoMitochondrion.fasta` file from Dr. Farman's machine to your `blast` directory
 
 ```
-scp ngs@10.163.183.71:Desktop/MoMitochondrion.fasta
+scp ngs@10.163.183.71:Desktop/MoMitochondrion.fasta blast/
 ```
 
 6. BLAST the `MoMitochondrion.fasta` sequence against your final genome assembly using output format 6 with specific column selections
