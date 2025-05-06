@@ -28,20 +28,18 @@ cp ../SLURM_SCRIPTS/CallVariants.sh .
 nano CallVariants.sh
 ```
 
-8. Run the script as a SLURM job
+8. Run the script as a SLURM job  
+   a. Results will be written to a directory named Bm88503_SNPs  
+   b. A summary of the total number of variants (SNPs) identified will be in the SNP_counts_out_Bm88503 file
 
 ```
 sbatch CallVariants.sh Bm88503_BLAST
 ```
 
-9. Results will be written to a directory named Bm88503_SNPs
-
-11. A summary of the total number of variants (SNPs) identified will be in the SNP_counts_out_Bm88503 file
-
-12. Copy the B71v2sh_v_Bm88503_out file into the CLASS_SNPS directory (/project/farman_s25abt480/CLASS_SNPs)
+9. Copy the B71v2sh_v_Bm88503_out file into the CLASS_SNPS directory (/project/farman_s25abt480/CLASS_SNPs)
 
 ```
 cp Bm88503_SNPs/B71v2sh_v_Bm88503_out  ../CLASS_SNPs
 ```
 
-13. We are now ready to compare all of our genomes against one another
+10. We are now ready to compare all of our genomes against one another
