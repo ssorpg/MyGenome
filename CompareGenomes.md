@@ -1,6 +1,6 @@
 # Compare Class Genomes
 
-Now that our genomes have been assembled, uploaded to NCBI, BLASTed, gene prediction has been run, and the genome has been verified to be valid, we can compare our genome to the otehrs in our class to etermine their similarity.
+Now that our genomes have been assembled, uploaded to NCBI, BLASTed, gene prediction has been run, and the genome has been verified to be valid, we can compare our genome to the others in our class to determine their similarity.
 
 1. `ssh` into the MCC VM
 
