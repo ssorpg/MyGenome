@@ -18,3 +18,7 @@ scp jba@mcc.uky.edu:/project/farman_s25abt480/jba231/Bm88503_final.fasta ./Bm885
     a. NCBI will return a version of the genome where it has removed any adaptor contamination it found at the start and end of each contig  
     b. Therefore, only the contamination found in the middle of each genome will need to be removed  
     c. It can be removed by splitting the contig at the location of the contamination and removing the offending reads
+
+6. Record the final number of cleaned reads and contigs in the class worksheet  
+    a. Reads: 41,642,841  
+    b. Contigs: 1,952
