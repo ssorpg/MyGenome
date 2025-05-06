@@ -31,7 +31,7 @@ nano CallVariants.sh
 8. Run the script as a SLURM job
 
 ```
-sbatch CallVariants.sh path/to/MyGenome_BLAST
+sbatch CallVariants.sh Bm88503_BLAST
 ```
 
 9. 
