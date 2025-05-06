@@ -1,6 +1,6 @@
 # BLAST Your Genome
 
-After BUSCO has run, we can now BLAST our genome against a repeat-masked version of the B71 reference genome. This will allow us to compare genomes across classmates, and to confirm that our genome fits within the 40kb (mb?) length requirement on NCBI.
+After BUSCO has run, we can now BLAST our genome against a repeat-masked version of the B71 reference genome. This will allow us to compare genomes across classmates, and to confirm that our genome fits within the 40mb length requirement on NCBI.
 
 1. `ssh` into the MCC VM
 
