@@ -38,7 +38,7 @@ sbatch CallVariants.sh Bm88503_BLAST
 
 11. A summary of the total number of variants (SNPs) identified will be in the SNP_counts_out_Bm88503 file
 
-12. `cp` the B71v2sh_v_Bm88503_out file into the CLASS_SNPS directory (/project/farman_s25abt480/CLASS_SNPs)
+12. Copy the B71v2sh_v_Bm88503_out file into the CLASS_SNPS directory (/project/farman_s25abt480/CLASS_SNPs)
 
 ```
 cp Bm88503_SNPs/B71v2sh_v_Bm88503_out  ../CLASS_SNPs
